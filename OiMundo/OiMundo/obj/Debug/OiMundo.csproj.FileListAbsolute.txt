@@ -1,0 +1,10 @@
+D:\C#\OiMundo\OiMundo\bin\Debug\OiMundo.exe.config
+D:\C#\OiMundo\OiMundo\bin\Debug\OiMundo.exe
+D:\C#\OiMundo\OiMundo\bin\Debug\OiMundo.pdb
+D:\C#\OiMundo\OiMundo\obj\Debug\OiMundo.csproj.AssemblyReference.cache
+D:\C#\OiMundo\OiMundo\obj\Debug\OiMundo.Form1.resources
+D:\C#\OiMundo\OiMundo\obj\Debug\OiMundo.Properties.Resources.resources
+D:\C#\OiMundo\OiMundo\obj\Debug\OiMundo.csproj.GenerateResource.cache
+D:\C#\OiMundo\OiMundo\obj\Debug\OiMundo.csproj.CoreCompileInputs.cache
+D:\C#\OiMundo\OiMundo\obj\Debug\OiMundo.exe
+D:\C#\OiMundo\OiMundo\obj\Debug\OiMundo.pdb

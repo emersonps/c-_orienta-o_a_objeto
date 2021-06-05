@@ -1,0 +1,57 @@
+CLI (Common Language Insfraestructure)- Infraestrutura necessária para interpretar os códigos escritos para a plataforma .NET 
+
+a CLI engloba a:
+
+CLR = Máquina virtual do C#
+CIL = Linguagem intermediária
+
+e os tipos bases utilizados no programa.
+
+
+Execução do Código na CLR e o JIT
+- Precisamos passar o código CIL do programa para o CLR
+- A CRL, por sua vez, executa o código da aplicação no S.O do usuário.
+
+Obs.: A CLR não interpreta o CIL.
+
+Quando o programa C# é carregado na memória, a CRL converte automaticamente o código CIL para código de máquina, esse processo é feito por um compilador Just in Time (JIT) da CLR.
+
+Esse carregamento utilizando o JIT faz com que o código escrito na linguagem C# execute com o desempenho máximo, com a vantagem de rodar em ambiente integrado com o .NET.
+
+Para codificar
+--------------------------------------------
+Deve-se baixar o Visual Studio Community
+
+
+
+Executando aplicações sem o Visual Studio
+--------------------------------------------
+Devemos instalar apenas o ambiente de execução no computador do cliente. 
+Utilizamos um pacote de instalação oferecido pela MS: .Net Framework Redistributable.
+
+
+Podemos usar o código C# dentro de ambientes não windows utilizando implementações livres do Common Language Infraestructure. Um ambiente de execução para ambientes não Windows é o Mono:
+https://www.mono-project.com/download/stable/
+
+
+Processo de Execução do Código pelo Visual Studio:
+---------------------------------------------------
+- Chama o compilador da linguagem C# passando os arquivos de texto que possue o código da aplicação (código fonte).
+- Caso o compilador não encontre nenhum erro de sintaxe no código, o compilador gera o código intermediário CIL, que é entendido pela máquina virtual do código C#, a CLR.
+- O código CIL é colocado em um arquivo executável (.exe) dentro da pasta do projeto. Esse arquivo que é o resultado da compilação do programa, é chamado de Assembly dentro da linguagem C#.
+- Depois da compilação, o Visual Studio executa o Assembly gerado na máquina virtual do C#.
+- A CLR por sua vez carrega o código CIL que foi gerado pelo compilador e o executa no sistema operacional.
+- Mas se a CLR interpretasse o código CIL para linguagem de máquina, o desempenho do C# não seria muito bom, e por isso, quando um programa C# é carregado pela CLR ele já é automaticamente convertido para linguagem de máquina por um processo conhecido como JIT(Just-in-time). Entao no C#, o código sempre é executado com o mesmo desempenho do código de máquina.
+
+Forum:
+http://www.guj.com.br/
+
+
+
+
+
+
+
+
+
+ 
